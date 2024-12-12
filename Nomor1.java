@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class Nomor1 {
      public static void bilN(int N) {
-        int i;
-        int j=0;
-        for (i=0; i <= N; i++) {
-            if (i ==3 && i != 0) {
-                j = 3 * i;
-                System.out.println("fizz");
+       for (int i = 0; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("FizzBuzz ");
+            } else if (i % 3 == 0) {
+                System.out.print("Fizz ");
+            } else if (i % 5 == 0) {
+                System.out.print("Buzz ");
+            } else {
+                System.out.print(i + " ");
             }
-            System.out.println(i);
-
+        }
         }
 
     public static void main(String[] args){
