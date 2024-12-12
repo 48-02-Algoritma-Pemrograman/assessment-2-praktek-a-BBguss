@@ -4,15 +4,19 @@ public class Nomor1 {
      public static void bilN(int N) {
        for (int i = 0; i <= N; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FizzBuzz ");
+                System.out.print("FizzBuzz");
             } else if (i % 3 == 0) {
-                System.out.print("Fizz ");
+                System.out.print("Fizz");
             } else if (i % 5 == 0) {
-                System.out.print("Buzz ");
+                System.out.print("Buzz");
             } else {
-                System.out.print(i + " ");
+                System.out.print(i);
+            }
+            if (i < N) {
+                System.out.print(" ");
             }
         }
+        System.out.println();
         }
 
     public static void main(String[] args){
