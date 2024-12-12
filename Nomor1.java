@@ -7,7 +7,7 @@ public class Nomor1 {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FizzBuzz ");
             } else if (i % 3 == 0) {
-                System.out.print("Fizz ");
+                System.out.print("Fizz "\n);
             } else if (i % 5 == 0) {
                 System.out.print("Buzz ");
             } else {
@@ -21,6 +21,7 @@ public class Nomor1 {
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
         bilN(N);
+        System.out.println(" ");
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Nomor1.class.getDeclaredMethods().length); 
