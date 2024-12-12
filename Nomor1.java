@@ -14,8 +14,7 @@ public class Nomor1 {
             } else {
                 System.out.print(i + " ");
             }
-        }
-                 
+        }           
         }
     }
 
@@ -24,6 +23,7 @@ public class Nomor1 {
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
         bilN(N);
+
         System.out.println("");
         /* Pekerjaan anda berakhir sini */
 
