@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Nomor1 {
-     public static void bilN(int N) {
-       for (int i = 0; i <= N; i++) {
+      public static void cetakFizzBuzz(int N) {
+        for (int i = 0; i <= N; i++) {
             // Cek kondisi FizzBuzz
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FizzBuzz ");
@@ -14,6 +14,7 @@ public class Nomor1 {
                 System.out.print(i + " ");
             }
         }
+    }
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
