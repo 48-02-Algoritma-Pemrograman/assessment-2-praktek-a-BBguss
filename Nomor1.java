@@ -4,7 +4,9 @@ public class Nomor1 {
       public static void bilN(int N) {
         for (int i = 0; i <= N; i++) {
             // Cek kondisi FizzBuzz
-            if (i % 3 == 0 && i % 5 == 0) {
+            if (i == 0) {
+                System.out.print("0 "); // Tampilkan 0 secara eksplisit
+            } else if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FizzBuzz ");
             } else if (i % 3 == 0) {
                 System.out.print("Fizz ");
@@ -13,6 +15,8 @@ public class Nomor1 {
             } else {
                 System.out.print(i + " ");
             }
+        }
+                 
         }
     }
 
