@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Nomor1 {
      public static void bilN(int N) {
-       for (int i = 0; i <= n; i++) {
+       for (int i = 0; i <= N; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FizzBuzz ");
             } else if (i % 3 == 0) {
